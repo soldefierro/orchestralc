@@ -1,7 +1,8 @@
 extern crate clap;
 use clap::{Arg, App, SubCommand};
 
-
+mod compile;
+mod parameters;
 
 fn main() {
     let matches = App::new("orchestralc")

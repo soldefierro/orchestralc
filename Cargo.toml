@@ -1,0 +1,8 @@
+[package]
+name = "orchestralc"
+version = "0.1.0"
+authors = ["Sol de Fierro <undisclosed>"]
+edition = "2018"
+
+[dependencies]
+clap = "2"
